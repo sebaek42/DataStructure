@@ -128,7 +128,6 @@ int main()
 			fail = 0;
 			cur = i;
 			V[cur] = mycolor;
-			printf("%d  ", cur);
 			while (1) // 지금보는 노드랑 연결된 노드들중 방문안한애들 전부 스택에 푸쉬
 			{
 				if (changemycolor == 1) {
